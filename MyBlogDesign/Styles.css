@@ -1,0 +1,50 @@
+@import "GeneralStyles.css";
+@import url("https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+    text-decoration: none;
+}
+
+html { 
+    font-size: 14px;
+}
+
+body {
+    font-family: poppins, sans-serif;
+    background: var(--color-background);
+}
+
+
+/* ----------------- Navbar ----------------- */
+
+.top-navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background: var(--color-primary-dark);
+    color: var(--color-white);
+    box-shadow: var(--box-shadow);
+}
+
+.top-navbar .menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* ----------------- Main ----------------- */
+
+.blog-posts-container {
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.blog-posts {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* .blog-posts .card {
+    width: 20rem;
+} */

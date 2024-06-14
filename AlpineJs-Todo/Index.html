@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div x-data="{ todos: [], userInput: '' }">
+        <form x-on:submit.prevent>
+            <input x-model="userInput" placeholder="Enter todo item" type="text">
+            <button x-on:click="todos.push({name: userInput, completed: false})">Add</button>
+        </form>
+
+        <template x-for="todo in todos">
+            <div>
+                <span x-text="todo.name"></span>
+            </div>
+        </template>
+
+    </div>
+</body>
+</html>

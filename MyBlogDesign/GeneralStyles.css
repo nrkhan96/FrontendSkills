@@ -1,0 +1,48 @@
+:root {
+    --color-primary: #7c3aed;
+    --color-primary-dark: #2e1065;
+
+    --color-danger: #ef4444;
+    --color-success: #22c55e;
+    --color-warning: #f59e0b;
+    --color-white: #fff;
+
+
+    --color-background: hsl(0, 100%, 100%);
+    
+    --card-border-radius: 1.5rem;
+
+    --box-shadow: 0 2rem 3rem var(--color-light);
+}
+
+/* Hero */
+.hero {
+    width: 100%;
+    height: 5rem;
+    background-color: #5b21b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Containers */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* Card */
+.card-header {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: hsl(0, 0%, 49%);
+    border-radius: var(--card-border-radius);
+}
+
+.card-footer {
+
+}

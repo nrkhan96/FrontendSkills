@@ -1,4 +1,4 @@
-<!DOCTYPE html> 48:42
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,8 +15,7 @@
         <div class="container">
             <h2 class="log">nokoSocial</h2>
             <div class="search-bar">
-                <!-- <i class="uil uil-search"></i> -->
-                <span class="material-symbols-outlined">search</span>
+                <i class="material-symbols-outlined">search</i>
                 <input type="search" placeholder="Search for creators, inspiration and projects">
             </div>
             <div class="create">
@@ -44,14 +43,23 @@
                     </div>
                 </a>
                 <div class="sidebar">
-                    <a class="menu-item">
-                        <span class="material-symbols-outlined">home</span><h3>Home</h3>
-                    </a>
                     <a class="menu-item active">
-                        <span class="material-symbols-outlined">explore</span><h3>Explore</h3>
+                        <span>
+                            <i class="material-symbols-outlined">home</i>
+                        </span>
+                        <h3>Home</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span>
+                            <i class="material-symbols-outlined">explore</i>
+                        </span>
+                        <h3>Explore</h3>
                     </a>
                     <a class="menu-item" id="notifications">
-                        <span class=""><i class="material-symbols-outlined">notifications<small class="notification-count">9+</small></i></span><h3>Notifications</h3>
+                        <span class="">
+                            <i class="material-symbols-outlined">notifications<small class="notification-count">9+</small></i>
+                        </span>
+                        <h3>Notifications</h3>
                         <div class="notifications-popup">
                             <div>
                                 <div class="profile-photo">
@@ -92,44 +100,369 @@
                         </div>
                     </a>
                     <a class="menu-item" id="messages-notifications">
-                        <span class=""><i class="material-symbols-outlined">message<small class="notification-count">6</small></i></span><h3>Messages</h3>
+                        <span class="">
+                            <i class="material-symbols-outlined">message<small class="notification-count">6</small></i>
+                        </span>
+                        <h3>Messages</h3>
                     </a>
                     <a class="menu-item">
-                        <span class="material-symbols-outlined">bookmarks</span><h3>Bookmarks</h3>
+                        <span>
+                            <i class="material-symbols-outlined">bookmarks</i>
+                        </span>
+                        <h3>Bookmarks</h3>
                     </a>
                     <a class="menu-item">
-                        <span class="material-symbols-outlined">analytics</span><h3>Analytics</h3>
+                        <span>
+                            <i class="material-symbols-outlined">analytics</i>
+                        </span>
+                        <h3>Analytics</h3>
                     </a>
                     <a class="menu-item">
-                        <span class="material-symbols-outlined">contrast</span><h3>Theme</h3>
+                        <span>
+                            <i class="material-symbols-outlined">contrast</i>
+                        </span>
+                        <h3>Theme</h3>
                     </a>
                     <a class="menu-item">
-                        <span class="material-symbols-outlined">settings</span><h3>Settings</h3>
+                        <span>
+                            <i class="material-symbols-outlined">settings</i>
+                        </span>
+                        <h3>Settings</h3>
                     </a>
                 </div>
                 <label for="create-post" class="btn btn-primary">Create Post</label>
             </div>
+
+
+
             <div class="middle">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Repellendus distinctio quibusdam consectetur suscipit ad omnis modi aliquid hic ut?
-                Quaerat fugit quo accusantium quia deleniti necessitatibus voluptatibus, magni possimus quos.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Repellendus distinctio quibusdam consectetur suscipit ad omnis modi aliquid hic ut?
-                Quaerat fugit quo accusantium quia deleniti necessitatibus voluptatibus, magni possimus quos.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Repellendus distinctio quibusdam consectetur suscipit ad omnis modi aliquid hic ut?
-                Quaerat fugit quo accusantium quia deleniti necessitatibus voluptatibus, magni possimus quos.
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/profile-8.jpg">
+                        </div>
+                        <p class="name">Daniel Craig</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/profile-9.jpg">
+                        </div>
+                        <p class="name">Julian Assange</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/profile-10.jpg">
+                        </div>
+                        <p class="name">Morgan Freeman</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/profile-11.jpg">
+                        </div>
+                        <p class="name">Denzel Washington</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/profile-12.jpg">
+                        </div>
+                        <p class="name">Dwayne Johnson</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/profile-13.jpg">
+                        </div>
+                        <p class="name">Kevin hart</p>
+                    </div>
+                </div>
+                <form class="create-post">
+                    <div class="profile-photo">
+                        <img src="./images/profile-1.jpg">
+                    </div>
+                    <input type="text" placeholder="What's on your mind, Diana?" id="create-post">
+                    <input type="submit" value="Post" class="btn btn-primary">
+                </form>
+                <div class="feeds">
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-13.jpg">
+                                </div>
+                                <div class="info">
+                                    <h3>Fiona Riley</h3>
+                                    <small>Dubai, 15 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="material-symbols-outlined">more_horiz</i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-1.jpg">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interactive-buttons">
+                                <span>
+                                    <i class="material-symbols-outlined">favorite</i>
+                                </span>
+                                <span>
+                                    <i class="material-symbols-outlined">comment</i>
+                                </span>
+                                <span>
+                                    <i class="material-symbols-outlined">share</i>
+                                </span>
+                            </div>
+                            <div class="bookmark">
+                                <span>
+                                    <i class="material-symbols-outlined">bookmark</i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span>
+                                <img src="./images/profile-1.jpg">
+                            </span>
+                            <span>
+                                <img src="./images/profile-4.jpg">
+                            </span>
+                            <span>
+                                <img src="./images/profile-15.jpg">
+                            </span>
+                            <p>Liked by <b>Ernest Achiever</b> and <b>2,323 Others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Fiona Riley</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="hash-tag">#Lifestyle</span></p>
+                        </div>
+
+                        <div class="comments text-muted">View all 277 comments</div>
+                    </div>
+
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-12.jpg">
+                                </div>
+                                <div class="info">
+                                    <h3>Del Santos</h3>
+                                    <small>London, 5 HOURS AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="material-symbols-outlined">more_horiz</i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-2.jpg">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interactive-buttons">
+                                <span>
+                                    <i class="material-symbols-outlined">favorite</i>
+                                </span>
+                                <span>
+                                    <i class="material-symbols-outlined">comment</i>
+                                </span>
+                                <span>
+                                    <i class="material-symbols-outlined">share</i>
+                                </span>
+                            </div>
+                            <div class="bookmark">
+                                <span>
+                                    <i class="material-symbols-outlined">bookmark</i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span>
+                                <img src="./images/profile-1.jpg">
+                            </span>
+                            <span>
+                                <img src="./images/profile-4.jpg">
+                            </span>
+                            <span>
+                                <img src="./images/profile-15.jpg">
+                            </span>
+                            <p>Liked by <b>Ernest Achiever</b> and <b>2,323 Others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Fiona Riley</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="hash-tag">#Lifestyle</span></p>
+                        </div>
+
+                        <div class="comments text-muted">View all 277 comments</div>
+                    </div>
+
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-11.jpg">
+                                </div>
+                                <div class="info">
+                                    <h3>Thiago sanelo</h3>
+                                    <small>Rio De Janiero, 2 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="material-symbols-outlined">more_horiz</i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-3.jpg">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interactive-buttons">
+                                <span>
+                                    <i class="material-symbols-outlined">favorite</i>
+                                </span>
+                                <span>
+                                    <i class="material-symbols-outlined">comment</i>
+                                </span>
+                                <span>
+                                    <i class="material-symbols-outlined">share</i>
+                                </span>
+                            </div>
+                            <div class="bookmark">
+                                <span>
+                                    <i class="material-symbols-outlined">bookmark</i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span>
+                                <img src="./images/profile-1.jpg">
+                            </span>
+                            <span>
+                                <img src="./images/profile-4.jpg">
+                            </span>
+                            <span>
+                                <img src="./images/profile-15.jpg">
+                            </span>
+                            <p>Liked by <b>Ernest Achiever</b> and <b>2,323 Others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Fiona Riley</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="hash-tag">#Lifestyle</span></p>
+                        </div>
+
+                        <div class="comments text-muted">View all 277 comments</div>
+                    </div>
+
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-10.jpg">
+                                </div>
+                                <div class="info">
+                                    <h3>Vin Diesel</h3>
+                                    <small>Miami, 2 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="material-symbols-outlined">more_horiz</i>
+                            </span>
+                        </div>
+
+                        <div class="photo">
+                            <img src="./images/feed-4.jpg">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interactive-buttons">
+                                <span>
+                                    <i class="material-symbols-outlined">favorite</i>
+                                </span>
+                                <span>
+                                    <i class="material-symbols-outlined">comment</i>
+                                </span>
+                                <span>
+                                    <i class="material-symbols-outlined">share</i>
+                                </span>
+                            </div>
+                            <div class="bookmark">
+                                <span>
+                                    <i class="material-symbols-outlined">bookmark</i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span>
+                                <img src="./images/profile-1.jpg">
+                            </span>
+                            <span>
+                                <img src="./images/profile-4.jpg">
+                            </span>
+                            <span>
+                                <img src="./images/profile-15.jpg">
+                            </span>
+                            <p>Liked by <b>Ernest Achiever</b> and <b>2,323 Others</b></p>
+                        </div>
+
+                        <div class="caption">
+                            <p><b>Fiona Riley</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="hash-tag">#Lifestyle</span></p>
+                        </div>
+
+                        <div class="comments text-muted">View all 277 comments</div>
+                    </div>
+                </div>
             </div>
+
+
             <div class="right">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Repellendus distinctio quibusdam consectetur suscipit ad omnis modi aliquid hic ut?
-                Quaerat fugit quo accusantium quia deleniti necessitatibus voluptatibus, magni possimus quos.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Repellendus distinctio quibusdam consectetur suscipit ad omnis modi aliquid hic ut?
-                Quaerat fugit quo accusantium quia deleniti necessitatibus voluptatibus, magni possimus quos.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Repellendus distinctio quibusdam consectetur suscipit ad omnis modi aliquid hic ut?
-                Quaerat fugit quo accusantium quia deleniti necessitatibus voluptatibus, magni possimus quos.
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Messages</h4><i class="material-symbols-outlined">edit</i>
+                    </div>
+                    <div class="search-bar">
+                        <i class="material-symbols-outlined">search</i>
+                        <input type="search" placeholder="Search Messages" id="message-search">
+                    </div>
+                    <div class="category">
+                        <h6 class="active">Primary</h6>
+                        <h6>General</h6>
+                        <h6 class="message-requests">Requests(7)</h6>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/profile-16.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Edem Quist</h5>
+                            <p class="text-muted">Just woke up bruh</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="friend-requests">
+                    <h4>Requests</h4>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="./images/profile-13.jpg">
+                            </div>
+                            <div>
+                                <h5></h5>
+                                <p class="text-muted">8 Mutual Friends</p>
+                            </div>
+                            <div class="action">
+                                <button class="btn btn-primary">Accept</button>
+                                <button class="btn">Decline</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>

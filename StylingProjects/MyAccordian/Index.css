@@ -1,0 +1,26 @@
+.hide {
+    height: 0;
+    overflow: hidden;
+    transition-duration: 1000ms;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.accordian {
+    display: flex;
+    flex-direction: column;
+}
+
+.accordian .accordian-tab {
+    background: red;
+    cursor: pointer;
+}
+
+.accordian .accordian-body {
+    background: blue; 
+    transition-duration: 1000ms;
+}
+

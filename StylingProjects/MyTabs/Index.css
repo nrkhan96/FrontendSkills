@@ -1,0 +1,23 @@
+.tabs {
+    display: grid;
+    grid-template-columns: 30vw auto;
+}
+
+.tab-headers {
+    display: flex;
+    flex-direction: column;
+}
+
+.tab-headers > a {
+    width: 100%;
+    background: red;
+    cursor: pointer;
+}
+
+.tab-1-body {
+    width: 100%;
+}
+
+.tab-2-body {
+    display: none;
+}
